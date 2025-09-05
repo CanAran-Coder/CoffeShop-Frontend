@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-height {
+    height: 5rem;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: 	#C9B099;
+}
+
+.nav-link-texts {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    font-size: large;
+    color: snow;
+}
+
+.font-google{
+    font-family: "Signika Negative", sans-serif!important;
+}
+
+#anasayfa {
+    background-image: url(Image/pexels-apgpotr-683039.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+a.nav-link-texts:hover{
+    color: 	#A6856D;
+    text-decoration: underline;
+}
+
+.nav-header{
+    color: 	#A6856D;
+}
+
+.overlay{
+    background-color: rgba(201, 176, 153, 0.6);
+    border-radius: 10px;
+}
+
+#urunler{
+    background-color: #C9B099;
+    height: auto;
+}
+
+.color-snow{
+    color: snow;
+}
+
+
+
+.aran-btn{
+    background-color: #A6856D!important;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: snow!important;
+    
+}
+
+.aran-cart{
+    width: 100%;
+    height: 15rem!important;
+    object-position: center;
+    object-fit: cover;
+}
+
+.object-position-right{
+    object-position: right!important;
+}
+
+.object-position-left{
+    object-position: left!important;
+}
+
+
+.body-height{
+    height: 10rem;
+}
+
+
+#nedenbiz{
+    background-color: #B29A88;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#nedenbiz img , #iletisim img{
+    height: auto;
+    width: 5%;
+    margin-right: 10px;
+}
+#nedenbiz h5{
+    margin:0px;
+    text-align: center;
+    
+}
+
+#iletisim li{
+    display: flex;
+}
+
+#iletisim li p{
+    margin:0px;
+}
+#iletisim{
+    background-color: #967D6F;
+}
+
+@media (max-width:576px){
+    #navbar{
+        display: none;
+    }
+}
+
+
+
+
+.border-sepet{  
+    position: relative;
+    border-radius: 0.5rem;
+    background-color: #967D6F;
+    padding: 5px;
+}
+
+#timer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    color: black;
+    top: -0.5rem;
+    right:-0.5rem;    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
+
+
+#sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+    top: 5rem;
+    right: -20vw;
+    height: 100%;
+    transition: right 0.3s ease;
+    background-color: #967D6F;
+    border-radius:5px;
+}
+
+
+.sidebarShow{
+    right: 0!important;
+}
+
+.sidebarPTag{
+    font-family: "Signika Negative", sans-serif!important;
+    margin-right: 1rem;
+    color: snow;
+    margin-bottom: 0px;
+}
+
+.sidebarBtn{
+    font-family: "Signika Negative", sans-serif!important;
+    text-decoration: underline!important;
+    color: snow!important;
+}
+
+
+.product-price{
+    font-family: "Signika Negative", sans-serif!important;
+    right: 0;
+    bottom: 0;
+    color: snow;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #A6856D;
+}

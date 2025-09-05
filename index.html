@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class=" nav-height shadow-lg rounded-1 bg-gradient" id="navbar">
+        <div class="row h-100 m-0 ">
+            <div class="d-flex col-4 justify-content-start align-items-center h-100">
+                <img src="Image/coffee-cup.png" class="mx-2 h-100 py-1">
+                <p class="mx-4 nav-link-texts my-0 nav-header fw-bolder">ARAN Coffe Shop</p>
+            </div>
+            <ul
+                class="d-flex justify-content-around list-unstyled text-decoration-none col-8 align-items-center m-0 h-100">
+                <li><a class="nav-link-texts" href="#anasayfa">Anasayfa</a></li>
+                <li><a class="nav-link-texts" href="#urunler">Ürünler</a></li>
+                <li><a class="nav-link-texts" href="#nedenbiz">Neden Biz?</a></li>
+                <li><a class="nav-link-texts" href="#iletisim">İletişim</a></li>
+                <li class="d-flex align-items-center border-sepet"><a id="btn_sepet" class="nav-link-texts"
+                        href="#sepetim">Sepetim</a><span id="timer">0</span></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="anasayfa" class="d-flex justify-content-center align-items-center">
+        <div class="overlay d-flex justify-content-center align-items-center flex-column">
+            <h1 class="color-snow display-1 font-google">ARAN Coffe Shop</h1>
+            <p class="color-snow display-5 font-google">Kahve Keyfinizi Sonuna Kadar Yaşayın!</p>
+        </div>
+
+    </section>
+
+    <section id="urunler">
+        <h1 class="color-snow text-center display-2 font-google">Ürünler</h1>
+        <div class="container p-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0 ">
+                        <div class="position-relative">
+                            <img src="Image/pexels-victorfreitas-685527.jpg"
+                                class="card-img-top object-fit-cover aran-cart object-position-left  ">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">70 TL</p>
+                        </div>
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Küçük, yoğun ve sert kahve.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0">
+                        <div class="position-relative">
+                            <img src="Image/aerial-view-latte-art.jpg" class="card-img-top  aran-cart object-position-left">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">75 TL</p>
+                        </div>
+                        
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Bol sütle hazırlanmış yumuşak kahve.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0">
+                        <div class="position-relative">
+                            <img src="Image/close-up-view-brown-coffee-seeds-with-coffee-dark.jpg"
+                                class="card-img-top object-fit-cover aran-cart object-position-right">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">80 TL</p>
+                        </div>
+
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Espresso’ya sıcak su eklenmiş hafif kahve.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0">
+                        <div class="position-relative">
+                            <img src="Image/2148251687.jpg" class="card-img-top object-fit-cover aran-cart">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">85 TL</p>
+                        </div>
+
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Eşit oranda espresso, süt ve köpük.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0">
+                        <div class="position-relative" >
+                            <img src="Image/22883.jpg" class="card-img-top object-fit-cover aran-cart">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">90 TL</p>
+                        </div>
+
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Kahve ve çikolatanın tatlı birleşimi.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-0">
+                        <div class="position-relative">
+                            <img src="Image/478.jpg" class="card-img-top object-fit-cover aran-cart">
+                            <p class="position-absolute product-price  my-0 bg-gradient shadow-lg p-1">95 TL</p>
+                        </div>
+
+                        <div class="card-body body-height position-relative d-flex flex-column align-items-center">
+                            <h5 class="card-title">Macchiato</h5>
+                            <p class="card-text">Espresso üzerine az köpüklü süt.</p>
+                            <button class="btn aran-btn shadow-lg position-absolute font-google">Sepete Ekle</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="nedenbiz" class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-2 font-google ">Neden Biz?</h1>
+        <div class="container">
+            <div class="row font-google">
+                <div class="col-4">
+                    <div class="d-flex align-items-center">
+                        <img src="Image/wallet.png" class="object-fit-cover h-auto">
+                        <h5>Ucuz</h5>
+                    </div>
+
+                    <p>Lezzetli kahveleri yüksek fiyatlarla değil, hak ettiğiniz fiyata sunuyoruz.
+                        ARAN Coffee Shop’ta kaliteyi uygun fiyatla buluşturuyor, kahve keyfini herkes için ulaşılabilir
+                        kılıyoruz.</p>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex align-items-center">
+                        <img src="Image/goose.png">
+                        <h5>Konforlu</h5>
+                    </div>
+
+                    <p>Sessiz, huzurlu ve rahat bir ortamda kahvenizi yudumlayın.
+                        İster çalışın, ister sohbet edin; geniş ve ferah alanlarımızda konforunuz her zaman önceliğimiz.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex align-items-center">
+                        <img src="image/badge.png">
+                        <h5>Kaliteli</h5>
+                    </div>
+
+                    <p>Taptaze çekirdekler, uzman baristalar ve özenli sunum.
+                        Her fincan kahvemiz, yüksek kalite standartlarımızla hazırlanır ve sizlere en iyi deneyimi
+                        sunar.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="iletisim" class="d-flex justify-content-center align-items-center font-google  flex-column">
+        <div>
+            <h1>Bizimle İletişime Geçin</h1>
+        </div>
+        <div class="d-flex flex-column">
+            <ul class="list-unstyled d-flex flex-column align-items-center">
+                <li class="d-flex justify-content-center">
+                    <img src="Image/telephone.png" class="object-fit-cover h-auto">
+                    <p>Telefon Numarası:5555555555</p>
+                </li>
+                <li class="d-flex justify-content-center">
+                    <img src="Image/gmail.png" class="object-fit-cover h-auto">
+                    <p>E-Mail:can.aran.coder@gmail.com</p>
+                </li>
+                <li class="d-flex justify-content-center">
+                    <img src="image/placeholder.png" class="object-fit-cover h-auto">
+                    <p>Adres: Atatürk Caddesi No:42, Kırklareli</p>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+
+
+    <section id="sidebar" class="d-flex">
+
+        <ul id="sidebar_lists">
+            
+        </ul>
+
+    </section>
+
+
+
+    <script src="Javs.js"></script>
+    <script src="Bootstrap/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
